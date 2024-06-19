@@ -1,0 +1,117 @@
+.linkEdit{
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.tableEntry {
+    margin-left: 50px;
+      margin-top: 100px;
+     font-family: 'Times New Roman', Times, serif ;
+     font-size: 20px;
+  }
+  th{
+       padding-left: 120px; 
+  }
+  td {
+      text-align: center;
+       padding-left: 120px; 
+  }
+  th:first-child, td:first-child {
+      padding: 0; 
+  }
+  tr:nth-child(odd) {
+      background-color: #ffffff; 
+  }
+  tr:nth-child(even){
+      background-color: #c4c4c4; 
+  }
+  #modalEntry {
+    width: 700px; 
+    max-height: 90vh;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.modal-dialog {
+    max-width: 500px; 
+}
+
+.modal-content {
+    height: 100%; 
+}
+.modal-footer {
+    justify-content: space-between; 
+}
+
+.close{
+    background-color: #5d0c0c;
+    color: #ffffff;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.close:hover{
+    background-color: #700707;
+}
+
+.save {
+    background-color: #105710;
+    color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save:hover {
+    background-color: #078207;
+}
+.modalLabel {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.modalHeading{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    font-style:inherit;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-control{
+    font-family: 'Times New Roman', Times, serif;
+    width: 150px;
+    height: 45px;
+}
+.modalOpen{
+    background-color: #1d0386;
+    color: #ffffff;
+    border: none;
+    margin-top: 45px;
+    margin-left: 70px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modalOpen:hover {
+    background-color: #0a3696;
+}
+.logout {
+    width: 200px;
+    height: 30px;
+    background-color:#65082f ;
+    color: #ffffff;
+    border-radius: 10px;
+    float: right;
+    margin-right: 85px;
+    margin-top: 45px;
+}
+.logout:hover{
+    background-color:#c41111 ;
+}

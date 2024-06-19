@@ -1,0 +1,23 @@
+.heading1 {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 40px;
+    font-style:inherit;
+    font-family: 'Times New Roman', Times, serif;
+}
+.linkToday {
+    float: left;
+    margin-top: 45px;
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.linkTomorow {
+    float: left;
+    margin-top: 45px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    text-decoration: none;
+}

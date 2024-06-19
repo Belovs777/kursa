@@ -1,0 +1,45 @@
+.tableEntry {
+    
+    margin-left: 50px;
+      margin-top: 100px;
+     font-family: 'Times New Roman', Times, serif ;
+     font-size: 20px;
+  }
+  th{
+       padding-left: 210px; 
+  
+  }
+  td {
+      text-align: center;
+       padding-left: 210px; 
+  }
+  th:first-child, td:first-child {
+      padding: 0; /* Noņem padding tikai pirmajai kolonnai */
+  }
+  tr:nth-child(odd) {
+      background-color: #ffffff; /* Krāsa nepāra rindām */
+  }
+  tr:nth-child(even) {
+      left: 95px;
+      background-color: #c4c4c4; /* Krāsa pāra rindām */
+  }
+.loginButton{
+    width: 200px;
+    height: 30px;
+    background-color:#9afcb4 ;
+    color: #000000;
+    border-radius: 10px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 45px;
+}
+.registerButton{
+    width: 200px;
+    height: 30px;
+    background-color:#9e1313 ;
+    color: #ffffff;
+    border-radius: 10px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 45px;
+}

@@ -1,0 +1,42 @@
+.logInput{
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    height: 45px;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form-group input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.logButton{
+        width: 200px;
+    height: 30px;
+    background-color:#9afcb4 ;
+    color: #000000;
+    border-radius: 10px;
+    float: right;
+    margin-right: 90px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.headingLog {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 30px;
+    font-style:inherit;
+    font-family: 'Times New Roman', Times, serif;
+}
