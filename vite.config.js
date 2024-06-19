@@ -2,6 +2,9 @@ import { defineConfig } from 'vite';
 import laravel, { refreshPaths } from 'laravel-vite-plugin';
 
 export default defineConfig({
+      build: {
+    outDir: 'dist', // Pārliecinieties, ka šeit ir norādīta `dist` direktorija
+  },
     plugins: [
         laravel({
             input: [
